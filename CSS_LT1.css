@@ -1,0 +1,26 @@
+/* Universal Selector */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* Element Selector */
+p {
+    color: green;
+    font-size: 16px;
+}
+
+/* Element Selector */
+h1 {
+    background-color: lightgray;
+}
+
+/* ID Selector */
+#mainTitle {
+    font-size: 28px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background-color: #f2f2f2;
+}

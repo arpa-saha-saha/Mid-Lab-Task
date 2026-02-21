@@ -1,0 +1,79 @@
+/* CSS Units Section */
+
+/* vh used for height */
+body {
+    height: 100vh;
+    margin: 2cm; /* absolute unit cm */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* % width + rem font */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Group Selector */
+h1, h2 {
+    text-align: center;
+    font-size: 2rem; /* relative unit rem */
+}
+
+/* px font size */
+h1 {
+    font-size: 28px; /* absolute px */
+}
+
+/* em for spacing */
+fieldset {
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+/* Descendant Selector */
+div p {
+    color: gray;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+    border: 2px solid blue;
+    padding: 5px;
+}
+
+/* Relative unit % */
+input {
+    width: 60%;
+    margin-top: 1em;
+}
+
+/* Buttons styling */
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: rgb(69, 32, 124);
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Pseudo-Classes */
+
+/* Hover effect */
+input[type="submit"]:hover {
+    background-color: green;
+    color: white;
+}
+
+/* Active effect */
+input[type="reset"]:active {
+    background-color: red;
+    color: white;
+}
+
+/* Focus effect */
+input:focus {
+    outline: 3px solid orange;
+}
