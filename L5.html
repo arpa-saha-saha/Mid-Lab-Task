@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Portfolio</title>
+</head>
+<body>
+    <header> <h1>Arpa Saha</h1>
+        <nav> <a href="#about">About Me</a> | 
+            <a href="#edu-history">Education</a> | 
+            <a href="#contact-form">Message Me</a>
+        </nav>
+    </header>
+
+    <main> <section id="about">
+            <h2>About My Career</h2>
+            <p>
+                I am a student of Computer Science and Engineering at 
+                <strong>American International University-Bangladesh (AIUB)</strong>. 
+                My goal is to develop innovative solutions for the tech industry.
+            </p>
+        </section>
+
+        <section id="edu-history">
+            <h2>Educational Background</h2>
+
+            <table border="1">
+
+                <caption>Formal Academic Record</caption> 
+
+                <thead>
+                     <tr>
+                        <th>Qualification</th>
+                        <th>School/College/University</th>
+                        <th>Passing Year</th>
+                        <th>GPA/CGPA</th> 
+                    </tr>
+                </thead>
+                <tbody> <tr>
+                        <td>B.Sc. in CSE</td>
+                        <td>AIUB</td>
+                        <td>2027 (Expected)</td>
+                        <td>3.90</td>
+                    </tr>
+                    <tr>
+                        <td>Higher Secondary Certificate (HSC)</td>
+                        <td>Kumudini Government College, Tangail</td>
+                        <td>2022</td>
+                        <td>5.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact-form">
+            <h2>Contact Information</h2>
+            <form action="#">
+                <p>
+                    <label for="full-name">Name:</label>
+                     <input type="text" id="full-name" name="name" placeholder="Enter Arpa's Name" required>
+                    </p>
+
+                <p>
+                    <label for="user-email">Email:</label>
+                     <input type="email" id="user-email" name="email" placeholder="arpa@example.com" required> 
+                    </p>
+
+                <p>
+                    <label for="mobile">Phone:</label>
+                    <input type="tel" id="mobile" name="phone" pattern="[0-1]{2}[0-9]{9}" placeholder="01XXXXXXXXX">
+                </p>
+
+                <p>
+                    <label for="comments">Message:</label>
+                     <br>
+                    <textarea id="comments" name="message" maxlength="300" placeholder="Type your message here..." required></textarea> 
+                </p>
+
+                <input type="submit" value="Submit Form">
+                
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p> 2026 - Arpa Saha | AIUB Student</p>
+        <p>Contact: arpasaha@example.com</p>
+    </footer>
+</body>
+</html>
