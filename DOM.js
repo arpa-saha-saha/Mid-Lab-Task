@@ -175,4 +175,4 @@ document.getElementById("highlightBtn").addEventListener("click", function () {
     if (items.length > 0)
         items[0].classList.add("highlight");
 
-});
+});// Terminal Test
